@@ -9,7 +9,7 @@
   ],
   "require": {
     "php": ">=5.3.17",
-    "thiagotoledo/copacabana":"dev-master"
+    "thiagotoledo/copacabana":"1.0"
   },
   "require-dev": {
 
