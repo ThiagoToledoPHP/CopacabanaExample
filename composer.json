@@ -9,8 +9,6 @@
   ],
   "require": {
     "php": ">=5.3.17",
-    "phpunit/phpunit": "4.0",
-    "phpunit/phpunit-selenium": ">=1.2",
     "thiagotoledo/copacabana":"dev-master"
   },
   "require-dev": {
