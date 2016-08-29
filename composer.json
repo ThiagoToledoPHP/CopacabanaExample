@@ -1,0 +1,21 @@
+{
+  "name": "thiagotoledo/copacabanaexample",
+  "description": "Simple Example to use Copacabana Light Stalk Framework Class",
+  "authors": [
+    {
+      "name": "Thiago Toledo",
+      "email": "javaephp@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.17",
+    "thiagotoledo/copacabana":"dev-master"
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "psr-4": {
+      "CopacabanaExample\\app\\Controllers\\": "app/Controllers/"
+    }
+  }
+}

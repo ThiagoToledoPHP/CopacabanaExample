@@ -1,0 +1,62 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "20e59c3c12ed68b7286dd1297e362fbf",
+    "content-hash": "e2b58abf10d3b42edf6dc255337de8cc",
+    "packages": [
+        {
+            "name": "thiagotoledo/copacabana",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ThiagoToledoPHP/Copacabana.git",
+                "reference": "9c9cc9a9e1e65dcf67951225cc3f23434537bf52"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ThiagoToledoPHP/Copacabana/zipball/9c9cc9a9e1e65dcf67951225cc3f23434537bf52",
+                "reference": "9c9cc9a9e1e65dcf67951225cc3f23434537bf52",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.17"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.0",
+                "phpunit/phpunit-selenium": ">=1.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Copacabana\\helpers\\": "app/Helpers/",
+                    "TestCopacabana\\app\\Controllers\\": "examples/example1/app/Controllers/",
+                    "Copacabana\\tests\\selenium\\": "tests/selenium/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Thiago Toledo",
+                    "email": "javaephp@gmail.com"
+                }
+            ],
+            "description": "Light Stalk Framework Class",
+            "time": "2016-08-29 16:00:24"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "thiagotoledo/copacabana": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.3.17"
+    },
+    "platform-dev": []
+}
